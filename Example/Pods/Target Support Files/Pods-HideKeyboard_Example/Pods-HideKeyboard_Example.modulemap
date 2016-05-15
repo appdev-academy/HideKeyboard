@@ -1,0 +1,6 @@
+framework module Pods_HideKeyboard_Example {
+  umbrella header "Pods-HideKeyboard_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

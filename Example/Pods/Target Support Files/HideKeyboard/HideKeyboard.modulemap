@@ -1,0 +1,6 @@
+framework module HideKeyboard {
+  umbrella header "HideKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
