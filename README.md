@@ -5,6 +5,18 @@
 [![License](https://img.shields.io/cocoapods/l/HideKeyboard.svg?style=flat)](http://cocoapods.org/pods/HideKeyboard)
 [![Platform](https://img.shields.io/cocoapods/p/HideKeyboard.svg?style=flat)](http://cocoapods.org/pods/HideKeyboard)
 
+## Usage
+
+Import framework:
+```swift
+import HideKeyboard
+```
+
+Just put this line somewhere inside of your controller:
+```swift
+self.hideKeyboard()
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
