@@ -22,7 +22,7 @@ public extension UIViewController {
         
         // Loop through all subviews and find first responder
         for view in subviews {
-            if view.isFirstResponder() {
+            if view.isFirstResponder {
                 view.resignFirstResponder()
                 return
             }
