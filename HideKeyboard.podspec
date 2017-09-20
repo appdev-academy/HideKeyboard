@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "HideKeyboard"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "Hide keyboard in iOS without extra hustle"
   s.homepage         = "https://github.com/appdev-academy/HideKeyboard"
   s.license          = 'MIT'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/AppDev_Academy'
   
   s.platform = :ios
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
   
   s.source_files = 'HideKeyboard/Classes/**/*'
   s.framework = 'UIKit'
