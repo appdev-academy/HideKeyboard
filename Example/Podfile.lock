@@ -1,5 +1,5 @@
 PODS:
-  - HideKeyboard (1.0.0)
+  - HideKeyboard (1.1.0)
 
 DEPENDENCIES:
   - HideKeyboard (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HideKeyboard: 2f1c2fbca01f7ca9fc437c6710f623c7c8c89bc9
+  HideKeyboard: 3a813266cbf8d22c8acfdf4320d5ffdaeb2ea7fa
 
 PODFILE CHECKSUM: e99fb56c843ee52d8964bd8746fdcd6c3a6acfc0
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.1.1
