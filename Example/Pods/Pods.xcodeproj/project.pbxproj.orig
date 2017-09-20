@@ -315,6 +315,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
+<<<<<<< HEAD
 				LastUpgradeCheck = 0900;
 				TargetAttributes = {
 					CEFA8BBA7FB4E136516EF15BC9730CD7 = {
@@ -324,6 +325,9 @@
 						LastSwiftMigration = 0900;
 					};
 				};
+=======
+				LastUpgradeCheck = 0700;
+>>>>>>> c618cd627f46ad3553bc3016ae29378cf02de768
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -385,6 +389,9 @@
 		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+<<<<<<< HEAD
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+=======
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -433,6 +440,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+>>>>>>> c618cd627f46ad3553bc3016ae29378cf02de768
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -455,8 +463,12 @@
 				PRODUCT_NAME = Pods_HideKeyboard_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+<<<<<<< HEAD
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
+=======
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+>>>>>>> c618cd627f46ad3553bc3016ae29378cf02de768
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -518,9 +530,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36EA9A8FAFBBB46A39A8CC74368C4E05 /* HideKeyboard.xcconfig */;
 			buildSettings = {
+<<<<<<< HEAD
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+=======
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+>>>>>>> c618cd627f46ad3553bc3016ae29378cf02de768
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -551,9 +567,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6809BDE40AFE02571F798A3536083151 /* Pods-HideKeyboard_Tests.release.xcconfig */;
 			buildSettings = {
+<<<<<<< HEAD
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+=======
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+>>>>>>> c618cd627f46ad3553bc3016ae29378cf02de768
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -586,9 +606,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE4A84843F8972BA6472412380FE9F5A /* Pods-HideKeyboard_Tests.debug.xcconfig */;
 			buildSettings = {
+<<<<<<< HEAD
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+=======
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+>>>>>>> c618cd627f46ad3553bc3016ae29378cf02de768
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -617,9 +642,9 @@
 			};
 			name = Debug;
 		};
-		D99CA80B9A6FE78D0F1987FA311D75B3 /* Release */ = {
+<<<<<<< HEAD
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36EA9A8FAFBBB46A39A8CC74368C4E05 /* HideKeyboard.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -671,11 +696,20 @@
 			name = Debug;
 		};
 		EAF0D6F3231FF1FD4383C7A72547DB54 /* Release */ = {
+=======
+		D99CA80B9A6FE78D0F1987FA311D75B3 /* Release */ = {
+>>>>>>> c618cd627f46ad3553bc3016ae29378cf02de768
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF2FB9618773BD2FEBF7035D0B634D3B /* Pods-HideKeyboard_Example.release.xcconfig */;
+			baseConfigurationReference = 36EA9A8FAFBBB46A39A8CC74368C4E05 /* HideKeyboard.xcconfig */;
 			buildSettings = {
+<<<<<<< HEAD
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+=======
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+>>>>>>> c618cd627f46ad3553bc3016ae29378cf02de768
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -705,9 +739,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF2FB9618773BD2FEBF7035D0B634D3B /* Pods-HideKeyboard_Example.release.xcconfig */;
 			buildSettings = {
+<<<<<<< HEAD
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+=======
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+>>>>>>> c618cd627f46ad3553bc3016ae29378cf02de768
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -730,9 +768,12 @@
 				PRODUCT_NAME = Pods_HideKeyboard_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+<<<<<<< HEAD
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
+=======
+>>>>>>> c618cd627f46ad3553bc3016ae29378cf02de768
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
