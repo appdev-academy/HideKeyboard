@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'HideKeyboard_Example' do
+  platform :ios, '9.0'
   pod 'HideKeyboard', :path => '../'
 
   target 'HideKeyboard_Tests' do

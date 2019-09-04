@@ -12,7 +12,7 @@ import UIKit
 public extension UIViewController {
   
   /// Hide keyboard from current UIViewController
-  @objc public func hideKeyboard() {
+  @objc func hideKeyboard() {
     // Flatten subviews tree
     let subviews = view.allSubviews
     
@@ -30,7 +30,7 @@ public extension UIViewController {
 public extension UIView {
   
   /// Flatten tree of subviews for current UIView
-  public var allSubviews: [UIView] {
+  var allSubviews: [UIView] {
     get {
       var allSubviews: [UIView] = []
       allSubviews.append(self)
